@@ -23,11 +23,11 @@ print()
 
 #Code to take the thread ID so the val can be fused later
 def readID():
-	if(len(sys.argv) > 3):
-		id = sys.argv[3]
-	else:
-		id = 0
-	return id
+    if(len(sys.argv) > 3):
+        id = sys.argv[3]
+    else:
+        id = 0
+    return id
 
 def procOutName(val):
     valArray = val.split('-')
@@ -117,44 +117,44 @@ def generateKey(nodeCount):
     return key
 
 	
-	#Added connectivity feature - RW - to be used later for statistical analysis
-	#Writes line to file every loop
-	#ID refers to proc ID - used when distributing nodes
-    #Generates the simulation log and connectivity
+#Added connectivity feature - RW - to be used later for statistical analysis
+#Writes line to file every loop
+#ID refers to proc ID - used when distributing nodes
+#Generates the simulation log and connectivity
+
 def writeResults(outputName,dataLine):
-    #S,  D,  V,  Time Received, Time Started, Time Ended, Wait Time, Cost, ? ,Direction
-    with open("Output/"+ str(outputName) + '-' + (str(times) + ".txt"),"a") \
-        as resultFile:
+    """S,  D,  V,  Time Received, Time Started, Time Ended, Wait Time, Cost, ? ,Direction"""
+    with open("Output/"+ str(outputName) + '-' + (str(times) + ".txt"),"a") as resultFile:
         resultFile.write('{} {:5}'.format(str(dataLine.toString()), str(dataLine.get_Direction())) + "\n")
-	id = readID()
-	if (theConfigurationFile == ''):
-		outName = 'defaultConnnectivitydata.out'
-	else:
-		configBase = gatherConfigBaseName(sys.argv[2])
-		outName = "ConfigurationAnalysis/" + configBase +'-connectivity.out'
-	with open(outName,"a") as outFile:
-		outFile.write(str(dataLine.calcConnectivity())+'\n')
+        id = readID()
+        if theConfigurationFile == '':
+            outName = 'defaultConnnectivitydata.out'
+        else:
+            configBase = gatherConfigBaseName(sys.argv[2])
+            outName = "ConfigurationAnalysis/" + configBase +'-connectivity.out'
+            with open(outName,"a") as outFile:
+                outFile.write(str(dataLine.calcConnectivity())+'\n')
 
 
 #def to write the neuralnet compatible training data
 #split the parse the command line arg to be suited for output
 def writeForNeuralNet(config,runtime):
-	#default time score for basic ring config:  2.8856e-06
-	if (runtime > 2.8856e-06):
-		classification = "bad"
-	elif (runtime < 2.8856e-06):
-		classification = "good"
-	else: 
-		classification = "same"
-	#Default configOut or Take the command line argument
-	if (theConfigurationFile == ''):
-		outName = 'defaultOutdata.out'
-	else:
-		configBase = gatherConfigBaseName(sys.argv[2])
-		outName = "ConfigurationAnalysis/" + configBase +'-Data.out'
-	with open(outName,"a") as outFile:
-		outFile.write(str(config) + ';' + str(runtime)+ ';' + classification + "\n")
-		
+    #default time score for basic ring config:  2.8856e-06
+    if (runtime > 2.8856e-06):
+        classification = "bad"
+    elif (runtime < 2.8856e-06):
+        classification = "good"
+    else: 
+        classification = "same"
+    #Default configOut or Take the command line argument
+    if (theConfigurationFile == ''):
+        outName = 'defaultOutdata.out'
+    else:
+        configBase = gatherConfigBaseName(sys.argv[2])
+        outName = "ConfigurationAnalysis/" + configBase +'-Data.out'
+    with open(outName,"a") as outFile:
+        outFile.write(str(config) + ';' + str(runtime)+ ';' + classification + "\n")
+            
 		
 
 #Go through the directory and find the file to be tested
@@ -214,8 +214,8 @@ for times in range(0, numberOfConfigurations):
     listLen = len(config.activeReq) #How many lines of data there are to be processed
 
     #Print the file info
-    print 'Running benchmark ' + logFile + '\n'
-    print 'ListLength:' + str(listLen) + '\n' + '\n' + '\n' 
+    print('Running benchmark ' + logFile + '\n')
+    print('ListLength:' + str(listLen) + '\n' + '\n' + '\n')
 
     #If you only wanted to run one specific configuration
     if (useConfigFile == False):
@@ -432,17 +432,17 @@ for times in range(0, numberOfConfigurations):
         t += 1 #Add another clock cycle
 #'''
     #Show results
-    print 'Finished test file: ' + str(config.logFile)
+    print('Finished test file: ' + str(config.logFile))
 #print the configuration so this can be sent to an NN
-    print theConfiguration
-    print 'Total Optical Clock Cycles: ' + str(t)
-    print 'Total Cost: ' + str(cost)
+    print(theConfiguration)
+    print('Total Optical Clock Cycles: ' + str(t))
+    print('Total Cost: ' + str(cost))
     totalTime = float(t)/(config.OCC*(10**9))
-    print 'Runtime: '+ str(totalTime) +'seconds'
+    print('Runtime: '+ str(totalTime) +'seconds')
     tProgram = time.time()-startTime
-    print 'Time for Program: ' + str(tProgram) + '\n\n'
+    print('Time for Program: ' + str(tProgram) + '\n\n')
     writeForNeuralNet(theConfiguration,totalTime)
-    print '----------------------------------------------------------'
+    print('----------------------------------------------------------')
 #'''
 
 raise SystemExit

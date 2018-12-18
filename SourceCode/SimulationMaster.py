@@ -69,12 +69,17 @@ def main():
     #Get the current dir -> and the relative simulation configurations
     #Always Name Configuration folder as Configurations/
     path = os.getcwd()
+    path2 = os.walk(path)
+    
     path = path + "/ParallelFiles/"
     #master thread/proc
     if(rank == 0):
     #prior to creating new files, delete old ones:
-        clean = ['sh', 'clean.sh']
-        subprocess.call(clean,shell=False)
+        clean = ['sh',' clean.sh']
+        abs_path = os.path.abspath(os.getcwd()+'\\'+os.listdir()[4])
+        clean[1] = abs_path
+        print(abs_path)
+        subprocess.call(['./clean.sh'],shell=True)
     #If master, process the input file to be divided to nodes
         configCount = partitionWork(str(sys.argv[2]),nodeCount)    
     #distribute the work by sending which partition of the parallel file

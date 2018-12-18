@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/Program Files/Git/bin sh
 
 CLEANDIR1="ParallelFiles/ParallelConfigurations-*-*.txt"
 EXISTDIR1="ConfigurationAnalysis/"
@@ -21,18 +21,18 @@ fi
 if [ -d "$EXISTDIR1" ]; then
     continue
 else
-    mkdir $EXISTDIR1 2>/dev/null
+    mkdir $EXISTDIR1  2>/dev/null
 fi
 
 #if Ouput/ Doesnt exist, then create the dir, else do nothing
 if [ -d "$EXISTDIR2" ];then
     continue
 else
-    mkdir  $EXISTDIR2 2>/dev/null
+    mkdir  $EXISTDIR2  2>/dev/null
 fi
 
 #Transfer prior data to Old Files to not conflict with the new simulation generation
-mv $MOVEDIR1 $OLDFILES 2>/dev/null
-mv $MOVEDIR2 $OLDFILES 2>/dev/null
+mv $MOVEDIR1 $OLDFILES  2>/dev/null
+mv $MOVEDIR2 $OLDFILES  2>/dev/null
 
-rm AnalyzedLog.txt 2>/dev/null
+# rm AnalyzedLog.txt # 2>/dev/null

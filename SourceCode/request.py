@@ -134,7 +134,7 @@ class request:
                 #Makes the right end of the path all 0s
                 config.nodestate1[self.positionDestination:] = [0] * (config.nodeCount - self.positionDestination)
             else:
-                print "Shouldn't Print"
+                print("Shouldn't Print")
                 config.nodestate1[self.positionSource:(self.positionDestination + 1)] = [0] * ((self.positionDestination + 1) - self.positionSource)
             self.delete_self() #Delete request
             
@@ -150,7 +150,7 @@ class request:
                 #Makes the right end of the path all 0s
                 config.nodestate2[self.positionDestination:] = [0] * (config.nodeCount - self.positionDestination)
             else:
-                print "Shouldn't Print"
+                print("Shouldn't Print")
                 config.nodestate2[self.positionSource:(self.positionDestination + 1)] = [0] * ((self.positionDestination + 1) - self.positionSource)
             self.delete_self() #Delete request
 
@@ -166,7 +166,7 @@ class request:
                 #Makes the right end of the path all 0s
                 config.nodestate3[self.positionDestination:] = [0] * (config.nodeCount - self.positionDestination)
             else:
-                print "Shouldn't Print"
+                print("Shouldn't Print")
                 config.nodestate3[self.positionSource:(self.positionDestination + 1)] = [0] * ((self.positionDestination + 1) - self.positionSource)
             self.delete_self() #Delete request
         return
