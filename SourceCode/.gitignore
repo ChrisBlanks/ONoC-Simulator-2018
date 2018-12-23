@@ -3,6 +3,7 @@
 OldFiles/*
 Output/*
 #ConfigurationAnalysis/*
+!ConfigurationAnalysis/
 DataStorage/*
 AnalyzedLog.txt
 ParallelFiles/*
