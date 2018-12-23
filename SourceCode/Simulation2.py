@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 from request import request
 import config
 import time
@@ -207,6 +207,8 @@ if (config.configurationFile != '') and (useConfigFile == True):
     go = True
 
 	#Go through the whole file of different configuration as many times as you tell it to unless given a file
+
+cb_count =1 #counts the number of configurations
 for times in range(0, numberOfConfigurations):
     
     #Get a new list of request objects
@@ -297,7 +299,6 @@ for times in range(0, numberOfConfigurations):
     destinationNodeTracker = [] #Keeps track of destination nodes
     cost = 0 #The volume * the distance of a request
     added = True #Boolean variable that keeps track of if a data is added into the network
-
 
     #While there are requests to be processed
     while (config.activeReq != []):
@@ -432,6 +433,8 @@ for times in range(0, numberOfConfigurations):
         t += 1 #Add another clock cycle
 #'''
     #Show results
+    print("Configuration #"+str(cb_count))
+    cb_count = cb_count + 1
     print('Finished test file: ' + str(config.logFile))
 #print the configuration so this can be sent to an NN
     print(theConfiguration)
