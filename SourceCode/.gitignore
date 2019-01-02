@@ -3,7 +3,7 @@
 OldFiles/*
 Output/*
 #ConfigurationAnalysis/*
-!ChrisTestData/
+!ChrisTestData/*
 !ConfigurationAnalysis/
 DataStorage/*
 AnalyzedLog.txt
