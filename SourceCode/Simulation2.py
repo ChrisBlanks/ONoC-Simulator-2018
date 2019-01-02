@@ -7,7 +7,8 @@ import sys
 import os
 
 #Debugging code for parallelization argument passing
-"""
+"""ls -l
+
 print("INSIDE SIM: " )
 print()
 print()
@@ -156,7 +157,6 @@ def writeForNeuralNet(config,runtime):
         outFile.write(str(config) + ';' + str(runtime)+ ';' + classification + "\n")
             
 		
-
 #Go through the directory and find the file to be tested
 for i in range(0,len(config.benchmarks)):
     #If the file tested == the file the loop is on break. else continue
@@ -447,6 +447,19 @@ for times in range(0, numberOfConfigurations):
     writeForNeuralNet(theConfiguration,totalTime)
     print('----------------------------------------------------------')
 #'''
+    #writes the above info into a file
+    logger_file = config.main_dir +"/Logger_"+config.benchmark_name +"_volume_"+str(config.volume)+".txt"
+    with open(logger_file,"a+") as logger:
+        logger.write("Configuration #"+str(cb_count-1)+"\n")
+        logger.write('Finished test file: ' + str(config.logFile)+"\n")
+    #print the configuration so this can be sent to an NN
+        logger.write(str(theConfiguration)+"\n")
+        logger.write('Total Optical Clock Cycles: ' + str(t)+"\n")
+        logger.write('Total Cost: ' + str(cost)+"\n")
+        logger.write('Runtime: '+ str(totalTime) +'seconds'+"\n")
+        logger.write('Time for Program: ' + str(tProgram) + '\n\n')
+        logger.write('----------------------------------------------------------'+"\n")
+
 
 raise SystemExit
 

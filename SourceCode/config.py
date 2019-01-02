@@ -3,10 +3,9 @@ import os, sys
 
 # Pre: Requires correct directory of benchmarks in variable path
 # Post: Creates list of benchmarks
-#path = 'C:/Users/nxconrad/Desktop/REU 2.0/Benchmark Data/16-core/7'
 #edit to path to get it based on current local dir
-path = os.getcwd()
-path = path + '/Benchmark_Data/16-core/7'
+main_dir = os.getcwd()
+path = main_dir + '/Benchmark_Data/16-core/7'
 #print(path)
 dirs = os.listdir(path)
 #print (dirs)
@@ -40,6 +39,8 @@ if (len(sys.argv) >= 3):
 #    logFile=logFile.split('/')
 #    logFile=logFile[-1]
     configurationFile=sys.argv[2]
+    benchmark_name = (sys.argv[1]).split("/")[-1].split(".")[0]
+    print(benchmark_name)
 	#configurationFilePath=sys.argv[2]
 	#configruationSplit = configurationFilePath.split("/")
 	#configurationFile = configruationSplit[-1]

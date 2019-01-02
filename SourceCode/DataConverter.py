@@ -105,6 +105,7 @@ def ConvertFile(masterFile, addFile):
     FULL_LOG = sorted(FULL_LOG, key = lambda config:config[1])
 
 def main():
+    isChrisData = False
     #Keep a list of the output configurations that need to be fused
     files = []    
 
@@ -118,8 +119,10 @@ def main():
     print ('Folder: ' + str(folder))
     #for all the output files in the folder, add them to a list to be processed
     for file in os.listdir(folder):
-        if fnmatch.fnmatch(file, 'ParallelConfigurations-*Data*'):
+        if fnmatch.fnmatch(file, 'ParallelConfigurations-*Data*') or \
+        fnmatch.fnmatch(file,'cb_*_config_*'): 
             files.append(str(folder) + '/' + str(file))
+            print(str(folder) + '/' + str(file))
         
     #If there are no generated datafiles from the simulation, or none were found
     #Exit the converter
@@ -127,21 +130,32 @@ def main():
         print('No Configurational Data Files Found')
         exit()
 
-    #get the number of configurations being fused
-    configs =  files[0].split('-')
-    numberOfConfigs = configs[1]
     
-    
-    #All TensorFlow data will be placed in TF folder
-    outputDir = 'TF/'
-    #Create the masterfile to append everything to
-    masterFile = open(str(outputDir) + 'config-data-' + str(numberOfConfigs) \
-         + '.csv', ('w+'))
-    #Write the headerfile
-    GenHeader(masterFile,numberOfConfigs)
-    #Build the CSV
-    ConvertFile(masterFile,files)
-    GenPriorityList()
+    for file in files:
+        #get the number of configurations being fused; checks both cases
+        configs_type1 =  file.split('-')
+        configs_type2 = file.split('_')
+
+        #if name of file cannot split then exit script
+        if len(configs_type1) > 1:
+            numberOfConfigs = configs_type1[1]
+        elif len(configs_type2) > 1:
+            numberOfConfigs = configs_type2[1]
+        else:
+            print(f'Could not read number of configurations for {file}.')
+            quit()
+        
+        
+        #All TensorFlow data will be placed in TF folder
+        outputDir = 'TF/'
+        #Create the masterfile to append everything to
+        masterFile = open(str(outputDir) + 'config-data-' + str(numberOfConfigs) \
+             + '.csv', ('w+'))
+        #Write the headerfile
+        GenHeader(masterFile,numberOfConfigs)
+        #Build the CSV
+        ConvertFile(masterFile,files)
+        GenPriorityList()
     
 
 if __name__ == '__main__':
