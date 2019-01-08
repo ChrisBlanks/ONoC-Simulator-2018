@@ -4,7 +4,7 @@ OldFiles/*
 Output/*
 #ConfigurationAnalysis/*
 !ChrisTestData/*
-!ConfigurationAnalysis/
+!ConfigurationAnalysis/*
 DataStorage/*
 AnalyzedLog.txt
-ParallelFiles/*
+!ParallelFiles/*

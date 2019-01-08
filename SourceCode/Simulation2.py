@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from request import request
 import config
+import datetime
 import time
 import random
 import sys
@@ -448,8 +449,13 @@ for times in range(0, numberOfConfigurations):
     print('----------------------------------------------------------')
 #'''
     #writes the above info into a file
-    logger_file = config.main_dir +"/Logger_"+config.benchmark_name +"_volume_"+str(config.volume)+".txt"
+    configBaseStr = gatherConfigBaseName(sys.argv[2])
+    logger_file = config.main_dir +"/Logger_"+config.benchmark_name +"_"+configBaseStr+ \
+     "_volume_"+ str(config.volume)+".txt"
     with open(logger_file,"a+") as logger:
+        if (cb_count - 1) == 1: #if first then write timestamp
+            today = str(datetime.date.today())
+            logger.write("Timestamp: " +today+"\n\n")
         logger.write("Configuration #"+str(cb_count-1)+"\n")
         logger.write('Finished test file: ' + str(config.logFile)+"\n")
     #print the configuration so this can be sent to an NN
@@ -458,6 +464,15 @@ for times in range(0, numberOfConfigurations):
         logger.write('Total Cost: ' + str(cost)+"\n")
         logger.write('Runtime: '+ str(totalTime) +'seconds'+"\n")
         logger.write('Time for Program: ' + str(tProgram) + '\n\n')
+
+        if (totalTime > 2.8856e-06):
+            classification = "bad"
+        elif (totalTime < 2.8856e-06):
+            classification = "good"
+        else: 
+            classification = "same"
+
+        logger.write('Classification: '+classification+"\n")
         logger.write('----------------------------------------------------------'+"\n")
 
 
