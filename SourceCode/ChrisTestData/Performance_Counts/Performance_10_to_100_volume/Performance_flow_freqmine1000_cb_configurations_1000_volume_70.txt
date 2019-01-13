@@ -1,0 +1,3 @@
+Counts->  Good: 1000 Bad: 0 Average: 0
+Counts->  Good: 1000 Bad: 0 Average: 0
+Counts->  Good: 1000 Bad: 0 Average: 0

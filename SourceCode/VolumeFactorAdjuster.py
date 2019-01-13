@@ -7,9 +7,10 @@ The impact of varying this value will manifest in the runtime/performance value.
 
 
 Notes:
+ > Supply commandline arguments in sublime project file (benchmark path & config path)
  > To run this in SublimeREPL, enter the following commands:
 	>import sys
-	>sys.argv = ["placeholder","Benchmark_Data/16-core/7/flow_freqmine100#1.txt",
+	>sys.argv = ["placeholder","Benchmark_Data/16-core/7/flow_freqmine1000.txt",
 				"ParallelFiles/cb_configurations_1000.txt"]
 	>import VolumeFactorAdjuster
  
@@ -18,12 +19,19 @@ Notes:
  > The sys.argv arguments can also be defined in this script instead of in the interpreter
 """
 
-import config
+
 import sys
+sys.argv = ["placeholder","Benchmark_Data/16-core/7/flow_freqmine2000.txt","ParallelFiles/cb_configurations_1000.txt"]
 
-print(str(sys.argv))
+import config
+import Simulation2 as Sim2
 
-for i in range(1,10):
-	config.volume = (i)*100  #changes the volume factor each loops
+print("Command Line Args: " +str(sys.argv))
+
+UPPER = 10
+LOWER = 1
+for i in range(LOWER,UPPER):
+	config.volume = (i*10)  #changes the volume factor each loops
 	print("Volume Factor: ",str(config.volume),"\n")
-	import Simulation2  #runs the expressions not in a function
+	Sim2.main()
+	

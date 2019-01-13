@@ -6,6 +6,7 @@ import os, sys
 #edit to path to get it based on current local dir
 main_dir = os.getcwd()
 path = main_dir + '/Benchmark_Data/16-core/7'
+isVolumeSpecific = True     #changes file name of output from writeForNeuralNet() in Simulation2.py
 #print(path)
 dirs = os.listdir(path)
 #print (dirs)
@@ -30,6 +31,8 @@ ECC = 2 #GHz (Change at will)
 packetSize = 8*(10**9) #bits
 volume = 100  #Volume Factor, Change this at will as well
 
+
+
 ##EDIT HERE FOR CONFIGURATIONS -- this should eventually be made into arguments -RW
 #print ("Enter log file")
 #print ("Len: ",len(sys.argv))
@@ -40,7 +43,6 @@ if (len(sys.argv) >= 3):
 #    logFile=logFile[-1]
     configurationFile=sys.argv[2]
     benchmark_name = (sys.argv[1]).split("/")[-1].split(".")[0]
-    print(benchmark_name)
 	#configurationFilePath=sys.argv[2]
 	#configruationSplit = configurationFilePath.split("/")
 	#configurationFile = configruationSplit[-1]
@@ -48,6 +50,7 @@ if (len(sys.argv) >= 3):
 else:
 	logFile = 'flow_freqmine100#2.txt'#'flow_dedup.log'#'test_walston_004.log' the log file that will be tested
 	configurationFile = 'AllConfigurations-5.txt' #The file with only configurations in it.
+
 weighted_cutoff = 20 # max nodes allowed to be bypassed on furthest path (Change at will)
 
 

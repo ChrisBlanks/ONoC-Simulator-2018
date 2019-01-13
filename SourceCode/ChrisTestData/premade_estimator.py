@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 #Copyright 2016 The TensorFlow Authors. All Rights Reserved.
 #
 #  Licensed under the Apache License, Version 2.0 (the "License");
@@ -6,12 +7,14 @@
 #  You may obtain a copy of the License at
 #
 #   http://www.apache.org/licenses/LICENSE-2.0
-#
-#  Unless required by applicable law or agreed to in writing, software
-#  distributed under the License is distributed on an "AS IS" BASIS,
-#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#  See the License for the specific language governing permissions and
-#  limitations under the License.
+
+
+"""
+Programmer: Chris Blanks
+Purpose: This is an adaptation of the premade estimator source code provided by TensorFlow. This script will load in configuration performance files for training and testing of a neural network. The Neural Net will make a decision on whether a configuration is good or not.
+"""
+
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -26,8 +29,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--batch_size', default=100, type=int, help='batch size')
 parser.add_argument('--train_steps', default= 500000 , type=int,
                     help='number of training steps')
-parser.add_argument('--train_data',default="config_train.csv",type=str,help="The file for the training data")
-parser.add_argument('--test_data',default="config_test.csv",type=str,help="The file for the testing data")
+parser.add_argument('--train_data',default="NN_Input/train_config-data-Data.out.csv",type=str,help="The file for the training data")
+parser.add_argument('--test_data',default="NN_Input/test_config-data-Data.out.csv",type=str,help="The file for the testing data")
 
 
 def main(argv):
@@ -69,7 +72,7 @@ def main(argv):
 
     print('\nTest set accuracy: {accuracy:0.3f}\n'.format(**eval_result))
 
-    exit()
+    #exit()
     # Generate predictions from the model
     expected = ['Average', 'Bad', 'Good']
     predict_x = {

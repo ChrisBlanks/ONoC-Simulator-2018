@@ -1,0 +1,324 @@
+Timestamp: 2019-01-08
+
+Configuration #1
+Finished test file: flow_freqmine100#1.txt
+[2, 10, 4, 3, 8, 15, 6, 14, 12, 5, 13, 11, 1, 7, 0, 9]
+Total Optical Clock Cycles: 23700193
+Total Cost: 157940000
+Runtime: 0.000592504825seconds
+Time for Program: 131.65563321113586
+
+Classification: bad
+----------------------------------------------------------
+Timestamp: 2019-01-08
+
+Configuration #1
+Finished test file: flow_freqmine100#1.txt
+[2, 10, 4, 3, 8, 15, 6, 14, 12, 5, 13, 11, 1, 7, 0, 9]
+Total Optical Clock Cycles: 23700193
+Total Cost: 157940000
+Runtime: 0.000592504825seconds
+Time for Program: 133.81641745567322
+
+Classification: bad
+----------------------------------------------------------
+Configuration #2
+Finished test file: flow_freqmine100#1.txt
+[8, 10, 12, 6, 15, 11, 7, 1, 14, 2, 4, 13, 3, 5, 0, 9]
+Total Optical Clock Cycles: 24580193
+Total Cost: 162780000
+Runtime: 0.000614504825seconds
+Time for Program: 272.39773869514465
+
+Classification: bad
+----------------------------------------------------------
+Configuration #3
+Finished test file: flow_freqmine100#1.txt
+[0, 15, 7, 2, 4, 8, 9, 6, 11, 10, 5, 12, 14, 3, 1, 13]
+Total Optical Clock Cycles: 23420198
+Total Cost: 151340000
+Runtime: 0.00058550495seconds
+Time for Program: 405.53641390800476
+
+Classification: bad
+----------------------------------------------------------
+Configuration #4
+Finished test file: flow_freqmine100#1.txt
+[11, 15, 8, 14, 7, 13, 2, 12, 1, 9, 5, 3, 6, 10, 0, 4]
+Total Optical Clock Cycles: 24440183
+Total Cost: 159240000
+Runtime: 0.000611004575seconds
+Time for Program: 541.3496453762054
+
+Classification: bad
+----------------------------------------------------------
+Configuration #5
+Finished test file: flow_freqmine100#1.txt
+[15, 10, 2, 11, 0, 14, 1, 9, 8, 6, 13, 4, 5, 12, 7, 3]
+Total Optical Clock Cycles: 24800172
+Total Cost: 151320000
+Runtime: 0.0006200043seconds
+Time for Program: 677.1738431453705
+
+Classification: bad
+----------------------------------------------------------
+Configuration #6
+Finished test file: flow_freqmine100#1.txt
+[12, 6, 3, 9, 7, 11, 1, 13, 14, 4, 10, 5, 8, 15, 2, 0]
+Total Optical Clock Cycles: 24060174
+Total Cost: 160280000
+Runtime: 0.00060150435seconds
+Time for Program: 810.972784280777
+
+Classification: bad
+----------------------------------------------------------
+Configuration #7
+Finished test file: flow_freqmine100#1.txt
+[12, 1, 2, 10, 11, 6, 0, 7, 8, 5, 3, 14, 9, 13, 4, 15]
+Total Optical Clock Cycles: 23500212
+Total Cost: 159100000
+Runtime: 0.0005875053seconds
+Time for Program: 944.463725566864
+
+Classification: bad
+----------------------------------------------------------
+Configuration #8
+Finished test file: flow_freqmine100#1.txt
+[10, 4, 6, 12, 9, 2, 14, 5, 7, 1, 11, 15, 3, 8, 0, 13]
+Total Optical Clock Cycles: 25120185
+Total Cost: 170780000
+Runtime: 0.000628004625seconds
+Time for Program: 1082.415357351303
+
+Classification: bad
+----------------------------------------------------------
+Configuration #9
+Finished test file: flow_freqmine100#1.txt
+[2, 9, 6, 10, 11, 14, 5, 4, 13, 7, 12, 3, 8, 15, 0, 1]
+Total Optical Clock Cycles: 24320205
+Total Cost: 158760000
+Runtime: 0.000608005125seconds
+Time for Program: 1218.3242809772491
+
+Classification: bad
+----------------------------------------------------------
+Configuration #10
+Finished test file: flow_freqmine100#1.txt
+[3, 0, 4, 13, 12, 10, 9, 5, 7, 15, 2, 6, 14, 1, 11, 8]
+Total Optical Clock Cycles: 25680183
+Total Cost: 163960000
+Runtime: 0.000642004575seconds
+Time for Program: 1357.3573484420776
+
+Classification: bad
+----------------------------------------------------------
+Configuration #11
+Finished test file: flow_freqmine100#1.txt
+[15, 9, 10, 6, 0, 14, 8, 1, 4, 3, 2, 11, 7, 5, 13, 12]
+Total Optical Clock Cycles: 25740181
+Total Cost: 159740000
+Runtime: 0.000643504525seconds
+Time for Program: 1497.266461610794
+
+Classification: bad
+----------------------------------------------------------
+Configuration #12
+Finished test file: flow_freqmine100#1.txt
+[15, 7, 12, 13, 1, 6, 14, 4, 10, 11, 0, 9, 2, 3, 5, 8]
+Total Optical Clock Cycles: 24140177
+Total Cost: 161640000
+Runtime: 0.000603504425seconds
+Time for Program: 1633.0635769367218
+
+Classification: bad
+----------------------------------------------------------
+Configuration #13
+Finished test file: flow_freqmine100#1.txt
+[3, 1, 8, 11, 2, 4, 12, 10, 6, 15, 14, 13, 5, 0, 7, 9]
+Total Optical Clock Cycles: 25820179
+Total Cost: 172900000
+Runtime: 0.000645504475seconds
+Time for Program: 1772.4617319107056
+
+Classification: bad
+----------------------------------------------------------
+Configuration #14
+Finished test file: flow_freqmine100#1.txt
+[6, 3, 10, 11, 1, 13, 0, 9, 4, 14, 8, 2, 5, 15, 7, 12]
+Total Optical Clock Cycles: 24280185
+Total Cost: 156080000
+Runtime: 0.000607004625seconds
+Time for Program: 1907.4371778964996
+
+Classification: bad
+----------------------------------------------------------
+Configuration #15
+Finished test file: flow_freqmine100#1.txt
+[14, 3, 5, 2, 8, 10, 15, 11, 7, 6, 0, 12, 4, 13, 9, 1]
+Total Optical Clock Cycles: 24040197
+Total Cost: 164320000
+Runtime: 0.000601004925seconds
+Time for Program: 2043.8177659511566
+
+Classification: bad
+----------------------------------------------------------
+Configuration #16
+Finished test file: flow_freqmine100#1.txt
+[11, 8, 2, 4, 10, 7, 3, 14, 13, 12, 6, 0, 1, 5, 9, 15]
+Total Optical Clock Cycles: 24800196
+Total Cost: 160820000
+Runtime: 0.0006200049seconds
+Time for Program: 2181.863510608673
+
+Classification: bad
+----------------------------------------------------------
+Configuration #17
+Finished test file: flow_freqmine100#1.txt
+[8, 14, 15, 0, 1, 3, 13, 5, 4, 6, 2, 12, 7, 9, 10, 11]
+Total Optical Clock Cycles: 24540193
+Total Cost: 159080000
+Runtime: 0.000613504825seconds
+Time for Program: 2317.6917917728424
+
+Classification: bad
+----------------------------------------------------------
+Configuration #18
+Finished test file: flow_freqmine100#1.txt
+[11, 6, 9, 10, 12, 8, 4, 15, 2, 7, 5, 1, 13, 3, 14, 0]
+Total Optical Clock Cycles: 24580197
+Total Cost: 160980000
+Runtime: 0.000614504925seconds
+Time for Program: 2454.486093521118
+
+Classification: bad
+----------------------------------------------------------
+Configuration #19
+Finished test file: flow_freqmine100#1.txt
+[13, 14, 15, 6, 9, 8, 12, 11, 1, 3, 4, 2, 0, 10, 5, 7]
+Total Optical Clock Cycles: 23780205
+Total Cost: 155440000
+Runtime: 0.000594505125seconds
+Time for Program: 2587.703038215637
+
+Classification: bad
+----------------------------------------------------------
+Configuration #20
+Finished test file: flow_freqmine100#1.txt
+[9, 3, 5, 6, 4, 14, 1, 8, 13, 7, 2, 10, 12, 0, 11, 15]
+Total Optical Clock Cycles: 23780196
+Total Cost: 159000000
+Runtime: 0.0005945049seconds
+Time for Program: 2722.802500963211
+
+Classification: bad
+----------------------------------------------------------
+Configuration #21
+Finished test file: flow_freqmine100#1.txt
+[10, 0, 1, 3, 2, 13, 14, 5, 11, 15, 4, 6, 7, 9, 12, 8]
+Total Optical Clock Cycles: 24960187
+Total Cost: 159120000
+Runtime: 0.000624004675seconds
+Time for Program: 2859.553092479706
+
+Classification: bad
+----------------------------------------------------------
+Configuration #22
+Finished test file: flow_freqmine100#1.txt
+[11, 13, 5, 10, 12, 7, 14, 3, 1, 9, 8, 2, 4, 15, 6, 0]
+Total Optical Clock Cycles: 24140191
+Total Cost: 163580000
+Runtime: 0.000603504775seconds
+Time for Program: 2995.822944879532
+
+Classification: bad
+----------------------------------------------------------
+Configuration #23
+Finished test file: flow_freqmine100#1.txt
+[9, 6, 1, 5, 13, 12, 3, 2, 11, 0, 4, 8, 7, 10, 14, 15]
+Total Optical Clock Cycles: 23960187
+Total Cost: 160860000
+Runtime: 0.000599004675seconds
+Time for Program: 3129.8079583644867
+
+Classification: bad
+----------------------------------------------------------
+Configuration #24
+Finished test file: flow_freqmine100#1.txt
+[9, 13, 4, 1, 7, 3, 12, 6, 8, 10, 5, 2, 11, 15, 14, 0]
+Total Optical Clock Cycles: 24220185
+Total Cost: 164760000
+Runtime: 0.000605504625seconds
+Time for Program: 3263.8770608901978
+
+Classification: bad
+----------------------------------------------------------
+Configuration #25
+Finished test file: flow_freqmine100#1.txt
+[14, 13, 11, 3, 2, 12, 10, 1, 8, 4, 0, 15, 7, 5, 6, 9]
+Total Optical Clock Cycles: 24240180
+Total Cost: 156700000
+Runtime: 0.0006060045seconds
+Time for Program: 3398.458796262741
+
+Classification: bad
+----------------------------------------------------------
+Configuration #26
+Finished test file: flow_freqmine100#1.txt
+[14, 5, 12, 4, 11, 8, 7, 0, 3, 13, 1, 10, 2, 15, 6, 9]
+Total Optical Clock Cycles: 24580196
+Total Cost: 166720000
+Runtime: 0.0006145049seconds
+Time for Program: 3534.6584560871124
+
+Classification: bad
+----------------------------------------------------------
+Configuration #27
+Finished test file: flow_freqmine100#1.txt
+[0, 4, 13, 15, 3, 8, 9, 14, 10, 6, 2, 7, 11, 12, 1, 5]
+Total Optical Clock Cycles: 24300178
+Total Cost: 162100000
+Runtime: 0.00060750445seconds
+Time for Program: 3669.1508781909943
+
+Classification: bad
+----------------------------------------------------------
+Configuration #28
+Finished test file: flow_freqmine100#1.txt
+[14, 12, 0, 13, 4, 1, 11, 15, 9, 5, 7, 10, 8, 2, 3, 6]
+Total Optical Clock Cycles: 24940174
+Total Cost: 161840000
+Runtime: 0.00062350435seconds
+Time for Program: 3805.746387720108
+
+Classification: bad
+----------------------------------------------------------
+Configuration #29
+Finished test file: flow_freqmine100#1.txt
+[13, 1, 2, 12, 14, 10, 11, 5, 6, 8, 4, 3, 0, 15, 7, 9]
+Total Optical Clock Cycles: 23580191
+Total Cost: 161160000
+Runtime: 0.000589504775seconds
+Time for Program: 3940.6990020275116
+
+Classification: bad
+----------------------------------------------------------
+Configuration #30
+Finished test file: flow_freqmine100#1.txt
+[11, 8, 9, 5, 14, 0, 3, 13, 6, 2, 12, 10, 7, 15, 4, 1]
+Total Optical Clock Cycles: 24500182
+Total Cost: 165240000
+Runtime: 0.00061250455seconds
+Time for Program: 4076.02903008461
+
+Classification: bad
+----------------------------------------------------------
+Configuration #31
+Finished test file: flow_freqmine100#1.txt
+[6, 11, 12, 15, 0, 2, 5, 8, 4, 1, 9, 10, 13, 14, 3, 7]
+Total Optical Clock Cycles: 24140182
+Total Cost: 156780000
+Runtime: 0.00060350455seconds
+Time for Program: 4211.213529825211
+
+Classification: bad
+----------------------------------------------------------

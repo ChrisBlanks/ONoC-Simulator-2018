@@ -105,7 +105,6 @@ def ConvertFile(masterFile, addFile):
     FULL_LOG = sorted(FULL_LOG, key = lambda config:config[1])
 
 def main():
-    isChrisData = False
     #Keep a list of the output configurations that need to be fused
     files = []    
 
@@ -120,7 +119,7 @@ def main():
     #for all the output files in the folder, add them to a list to be processed
     for file in os.listdir(folder):
         if fnmatch.fnmatch(file, 'ParallelConfigurations-*Data*') or \
-        fnmatch.fnmatch(file,'cb_*_config_*'): 
+        fnmatch.fnmatch(file,'cb_*'): 
             files.append(str(folder) + '/' + str(file))
             print(str(folder) + '/' + str(file))
         
@@ -137,10 +136,10 @@ def main():
         configs_type2 = file.split('_')
 
         #if name of file cannot split then exit script
-        if len(configs_type1) > 1:
+        if len(configs_type1) > 1 and configs_type1[1] != "Data":
             numberOfConfigs = configs_type1[1]
-        elif len(configs_type2) > 1:
-            numberOfConfigs = configs_type2[1]
+        elif len(configs_type2) > 2 and configs_type2[2] != "Data":
+            numberOfConfigs = configs_type2[2]
         else:
             print(f'Could not read number of configurations for {file}.')
             quit()
@@ -148,6 +147,10 @@ def main():
         
         #All TensorFlow data will be placed in TF folder
         outputDir = 'TF/'
+        if "cb_" in file:
+            outputDir = "ChrisTestData/"
+            print("Writing to ChrisTestData")
+
         #Create the masterfile to append everything to
         masterFile = open(str(outputDir) + 'config-data-' + str(numberOfConfigs) \
              + '.csv', ('w+'))
