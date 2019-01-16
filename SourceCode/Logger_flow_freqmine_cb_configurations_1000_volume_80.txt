@@ -2450,3 +2450,63 @@ Time for Program: 70539.53980731964
 
 Classification: bad
 ----------------------------------------------------------
+Configuration #246
+Finished test file: flow_freqmine.txt
+[13, 5, 1, 6, 3, 12, 4, 2, 11, 15, 8, 9, 0, 7, 10, 14]
+Total Optical Clock Cycles: 686846
+Total Cost: 4066960
+Runtime: 1.717115e-05seconds
+Time for Program: 70790.14344382286
+
+Classification: bad
+----------------------------------------------------------
+Configuration #247
+Finished test file: flow_freqmine.txt
+[2, 10, 12, 6, 3, 15, 4, 11, 8, 5, 1, 0, 9, 7, 13, 14]
+Total Optical Clock Cycles: 692040
+Total Cost: 4084960
+Runtime: 1.7301e-05seconds
+Time for Program: 71038.20453596115
+
+Classification: bad
+----------------------------------------------------------
+Configuration #248
+Finished test file: flow_freqmine.txt
+[8, 9, 11, 4, 6, 14, 1, 0, 10, 15, 5, 13, 7, 2, 3, 12]
+Total Optical Clock Cycles: 685043
+Total Cost: 3822720
+Runtime: 1.7126075e-05seconds
+Time for Program: 71285.96512317657
+
+Classification: bad
+----------------------------------------------------------
+Configuration #249
+Finished test file: flow_freqmine.txt
+[4, 12, 11, 5, 15, 6, 1, 7, 3, 8, 9, 2, 13, 10, 0, 14]
+Total Optical Clock Cycles: 690434
+Total Cost: 3700960
+Runtime: 1.726085e-05seconds
+Time for Program: 71535.65154337883
+
+Classification: bad
+----------------------------------------------------------
+Configuration #250
+Finished test file: flow_freqmine.txt
+[6, 9, 7, 10, 8, 1, 11, 4, 3, 14, 2, 15, 0, 12, 5, 13]
+Total Optical Clock Cycles: 682842
+Total Cost: 3421680
+Runtime: 1.707105e-05seconds
+Time for Program: 71781.69228410721
+
+Classification: bad
+----------------------------------------------------------
+Configuration #251
+Finished test file: flow_freqmine.txt
+[13, 7, 4, 10, 12, 9, 15, 11, 8, 3, 0, 2, 5, 1, 6, 14]
+Total Optical Clock Cycles: 690632
+Total Cost: 3743200
+Runtime: 1.72658e-05seconds
+Time for Program: 72031.99843597412
+
+Classification: bad
+----------------------------------------------------------
