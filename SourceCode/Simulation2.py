@@ -142,26 +142,27 @@ def writeResults(outputName,dataLine):
 #split the parse the command line arg to be suited for output
 def writeForNeuralNet(config_list,runtime,theConfigurationFileName):
     #default time score for basic ring config:  2.8856e-06
-    if (runtime > 2.8856e-06):
-        classification = "bad"
-    elif (runtime < 2.8856e-06):
+    if (runtime < 2.8856e-06):
         classification = "good"
+    elif (runtime < 3.0e-6):
+        classification = "average"
     else: 
-        classification = "same"
+        classification = "bad"
     #Default configOut or Take the command line argument
     if (theConfigurationFileName == ''):
         outName = 'defaultOutdata.out'
     elif config.isVolumeSpecific:
         #used for testing by Chris B
         configBase = gatherConfigBaseName(sys.argv[2])
-        outName = "ConfigurationAnalysis/" + configBase +"_"+ str(config.volume)+ "_Data.txt"
+        outName = "ChrisTestData/Config_Analysis/" + configBase +"_volume_"+ str(config.volume)+ ".txt"
     else:
         configBase = gatherConfigBaseName(sys.argv[2])
         outName = "ConfigurationAnalysis/" + configBase +'-Data.out'
 
     with open(outName,"a") as outFile:
         outFile.write(str(config_list) + ';' + str(runtime)+ ';' + classification + "\n")
-            
+ 
+
 def main():		
     #Go through the directory and find the file to be tested
     for i in range(0,len(config.benchmarks)):
@@ -172,7 +173,7 @@ def main():
         if config.configurationFile == str(config.benchmarksOnly[i]):
             theConfigurationFile = config.benchmarks[i]
         else:
-    	#if the configurationFile is not in the same dir as benchmarksfiles, set it to whatever config is set to
+    	#if the configurationFile is not in the"average dir as benchmarksfiles, set it to whatever config is set to
             theConfigurationFile = config.configurationFile
             print("config: " +theConfigurationFile)
 
@@ -449,11 +450,21 @@ def main():
         print('Total Optical Clock Cycles: ' + str(t))
         print('Total Cost: ' + str(cost))
         totalTime = float(t)/(config.OCC*(10**9))
-        print('Runtime: '+ str(totalTime) +'seconds')
+        print('Runtime: '+ str(totalTime) +' seconds')
         tProgram = time.time()-startTime
         print('Time for Program: ' + str(tProgram) + '\n\n')
-        writeForNeuralNet(theConfiguration,totalTime,theConfigurationFile)
+
+        if (totalTime < 2.8856e-06):
+            classification = "good"
+        elif (totalTime < 3.0e-6):
+            classification = "average"
+        else: 
+            classification = "bad"
+
+        print('Classification: '+classification+"\n")
         print('----------------------------------------------------------')
+        writeForNeuralNet(theConfiguration,totalTime,theConfigurationFile)
+        
     #'''
         #writes the above info into a file
         configBaseStr = gatherConfigBaseName(sys.argv[2])
@@ -469,7 +480,7 @@ def main():
             logger.write(str(theConfiguration)+"\n")
             logger.write('Total Optical Clock Cycles: ' + str(t)+"\n")
             logger.write('Total Cost: ' + str(cost)+"\n")
-            logger.write('Runtime: '+ str(totalTime) +'seconds'+"\n")
+            logger.write('Runtime: '+ str(totalTime) +' seconds'+"\n")
             logger.write('Time for Program: ' + str(tProgram) + '\n\n')
 
             if (totalTime > 2.8856e-06):
@@ -477,7 +488,7 @@ def main():
             elif (totalTime < 2.8856e-06):
                 classification = "good"
             else: 
-                classification = "same"
+                classification = "average"
 
             logger.write('Classification: '+classification+"\n")
             logger.write('----------------------------------------------------------'+"\n")

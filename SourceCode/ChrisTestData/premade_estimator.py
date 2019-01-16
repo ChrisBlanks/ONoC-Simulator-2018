@@ -48,15 +48,15 @@ def main(argv):
     # Build 2 hidden layer DNN with 10, 10 units respectively.
     classifier = tf.estimator.DNNClassifier(
         feature_columns=my_feature_columns,
-        # Two hidden layers of 10 nodes each.
-        hidden_units=[15,15 ],
+        # Two hidden layers of 15 nodes each.
+        hidden_units=[15,15,10 ],
 #        hidden_units=[ 15,15],
         #Specify Activation functions
 #        activation_fn = tf.nn.sigmoid,
         # The model must choose between 3 classes.
-        n_classes=5)
+        n_classes=3,  #classes: good, average, bad
         # Specify a place to save the model
-#        model_dir = os.getcwd()+'/ModelSR')
+        model_dir = os.getcwd()+'/Models')
     
 
     # Train the Model.
@@ -74,7 +74,7 @@ def main(argv):
 
     #exit()
     # Generate predictions from the model
-    expected = ['Average', 'Bad', 'Good']
+    expected = ['Average', 'Bad', 'Good'] #expected values for each column (a certain configuration)
     predict_x = {
         'node0': [0, 11, 13],
         'node1': [1, 5, 7],
@@ -93,9 +93,6 @@ def main(argv):
         'node14': [14, 7, 3],
         'node15': [15, 2, 6],
 
-#        'SepalWidth': [3.3, 3.0, 3.1],
-#        'PetalLength': [1.7, 4.2, 5.4],
-#        'PetalWidth': [0.5, 1.5, 2.1],
     }
 
     predictions = classifier.predict(

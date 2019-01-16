@@ -65,11 +65,11 @@ def GenPriorityList():
 def ClassifyByTime(time):
     time = float(time)
     if(time < 2.8e-6):
-        classification = '0'
+        classification = '0'   #good
     elif (time < 3.0e-6):
-        classification = '1'
+        classification = '1'   #average
     else:
-        classification = '2'
+        classification = '2'   #bad
 #    print(time,classification)
     return classification
 

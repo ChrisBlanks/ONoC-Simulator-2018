@@ -1,2 +1,1 @@
 Counts->  Good: 0 Bad: 1000 Average: 0
-Counts->  Good: 0 Bad: 1000 Average: 0
