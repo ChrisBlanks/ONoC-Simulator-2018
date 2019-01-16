@@ -1,5 +1,5 @@
 # README.md 
-## Author: Chris Blanks \ Date: 1/16/2019
+## Author: Chris Blanks |  Date: 1/16/2019
 
 **This folder contains the data that was acquired after adapting the existing code base that I have made to this project during the winter break of the 2018-2019 year. The following are the most significant adaptions/additions:**
 ---
