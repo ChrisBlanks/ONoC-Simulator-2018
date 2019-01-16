@@ -1,0 +1,2 @@
+Counts->  Good: 2 Bad: 594 Average: 0
+Counts->  Good: 4 Bad: 996 Average: 0
