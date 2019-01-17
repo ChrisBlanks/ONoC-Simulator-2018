@@ -12,6 +12,13 @@
 """
 Programmer: Chris Blanks
 Purpose: This is an adaptation of the premade estimator source code provided by TensorFlow. This script will load in configuration performance files for training and testing of a neural network. The Neural Net will make a decision on whether a configuration is good or not.
+Note:
+    >Use these commands:
+        > import sys
+        > sys.argv = ["--test_data","NN_Input/test_config-data-1000.csv",
+        "--train_data","NN_Input/train_config-data-1000.csv"]
+        > import premade_estimator
+        >premade_estimator.
 """
 
 
@@ -110,6 +117,11 @@ def main(argv):
                               100 * probability, expec))
 
 
-if __name__ == '__main__':
+def startSession():
+    """Configures tensor flow session."""
     tf.logging.set_verbosity(tf.logging.INFO)
     tf.app.run(main)
+
+
+if __name__ == '__main__':
+    startSession()

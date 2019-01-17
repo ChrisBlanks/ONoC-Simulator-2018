@@ -7,7 +7,7 @@
 **Adaptation to the *Simulation2.py* script (Located in the SourceCode directory)**
 > * Logger files are now created with information regarding the performance of a configuration in the simulator
 >
-> * The `writeForNeuralNet()` function will output data to the ChrisTestData directory now if the `config.isVolumeSpecific` global variable is set in the "config.py" script beforehand
+> * The `writeForNeuralNet()` function will output data to the *ChrisTestData* directory now if the `config.isVolumeSpecific` global variable is set in the "config.py" script beforehand
 >
 > * If `config.isVolumeSpecific` is true, then the configuration analysis files have their volume factor volume appended to their names
 

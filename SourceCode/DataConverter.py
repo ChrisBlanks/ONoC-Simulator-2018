@@ -95,6 +95,7 @@ def ConvertFile(masterFile, addFile):
                 #write the config list- It is possible that the internal spaces
                 ParseLine(masterFile,line[0])
                 #Create a tuple of config,time, and then sort over time
+                print(line)
                 con_time = (line[0],float(line[1]))
                 FULL_LOG.append(con_time)
                 #Parse the time to see what level of classification it is
@@ -114,51 +115,45 @@ def main():
         folder = str(sys.argv[1])
     except: 
         folder = 'ConfigurationAnalysis/'
-    
+    try:
+        outputDir = "ChrisTestData/"
+    except:
+        outputDir = 'TF/'
     print ('Folder: ' + str(folder))
     #for all the output files in the folder, add them to a list to be processed
+    print(os.listdir(folder))
+    numberOfConfigs = 0
     for file in os.listdir(folder):
+        if os.path.isdir(file):
+            continue
+        if "." not in file:
+            print("Not an appropriate file: " + file)
+            continue
         if fnmatch.fnmatch(file, 'ParallelConfigurations-*Data*') or \
         fnmatch.fnmatch(file,'cb_*'): 
             files.append(str(folder) + '/' + str(file))
-            print(str(folder) + '/' + str(file))
+            if "_" in file:
+                num_list = [int(s) for s in files[-1].split("_") if s.isdigit()] #parse latest file for num of configs
+            elif "-" in file:
+                num_list = [int(s) for s in files[-1].split("-") if s.isdigit()]
+            print(num_list)
+            numberOfConfigs = numberOfConfigs + num_list[0] #add first number of list to configuration count
+            print(str(folder) + str(file))
         
     #If there are no generated datafiles from the simulation, or none were found
     #Exit the converter
-    if(len(files)==0):
-        print('No Configurational Data Files Found')
-        exit()
-
     
-    for file in files:
-        #get the number of configurations being fused; checks both cases
-        configs_type1 =  file.split('-')
-        configs_type2 = file.split('_')
-
-        #if name of file cannot split then exit script
-        if len(configs_type1) > 1 and configs_type1[1] != "Data":
-            numberOfConfigs = configs_type1[1]
-        elif len(configs_type2) > 2 and configs_type2[2] != "Data":
-            numberOfConfigs = configs_type2[2]
-        else:
-            print(f'Could not read number of configurations for {file}.')
-            quit()
-        
-        
-        #All TensorFlow data will be placed in TF folder
-        outputDir = 'TF/'
-        if "cb_" in file:
-            outputDir = "ChrisTestData/"
-            print("Writing to ChrisTestData")
-
-        #Create the masterfile to append everything to
-        masterFile = open(str(outputDir) + 'config-data-' + str(numberOfConfigs) \
-             + '.csv', ('w+'))
-        #Write the headerfile
-        GenHeader(masterFile,numberOfConfigs)
-        #Build the CSV
-        ConvertFile(masterFile,files)
-        GenPriorityList()
+    assert len(files) > 0, 'No Configurational Data Files Found'
+    #Create the masterfile to append everything to
+    output_file =  str(outputDir) + 'config-data-' + str(numberOfConfigs)+ '.csv'
+    print(output_file)
+    masterFile = open( output_file, 'w+')
+    
+    #Write the headerfile
+    GenHeader(masterFile,numberOfConfigs)
+    
+    ConvertFile(masterFile,files) #Build the CSV
+    GenPriorityList()
     
 
 if __name__ == '__main__':

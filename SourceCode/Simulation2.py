@@ -159,7 +159,7 @@ def writeForNeuralNet(config_list,runtime,theConfigurationFileName):
         configBase = gatherConfigBaseName(sys.argv[2])
         outName = "ConfigurationAnalysis/" + configBase +'-Data.out'
 
-    with open(outName,"a") as outFile:
+    with open(outName,"a+") as outFile:
         outFile.write(str(config_list) + ';' + str(runtime)+ ';' + classification + "\n")
  
 

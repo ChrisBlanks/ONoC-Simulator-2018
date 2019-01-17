@@ -18,7 +18,7 @@ if len(sys.argv) > 1:
 else:
 	desired_dir_path = os.getcwd()
 
-assert os.path.isdir(desired_dir_path), "Not a directory for data"
+assert os.path.isdir(desired_dir_path), "Not a directory for data: {}".format(desired_dir_path)
 
 files = os.listdir(desired_dir_path)
 OUTPUT_DIR = "NN_Input/"
@@ -26,6 +26,7 @@ THRESHOLD = 0.5
 
 random.seed() #generates a seed based on time or OS nondeterministic process
 line_count = 1
+print(files)
 for file in files:
 	if ".csv" in file:
 		data_train = OUTPUT_DIR+ "train_"+file.replace(".out","")
