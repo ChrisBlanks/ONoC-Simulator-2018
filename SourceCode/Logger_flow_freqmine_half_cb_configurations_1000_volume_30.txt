@@ -1,0 +1,972 @@
+Timestamp: 2019-01-17
+
+Configuration #1
+Finished test file: flow_freqmine_half.txt
+[2, 10, 4, 3, 8, 15, 6, 14, 12, 5, 13, 11, 1, 7, 0, 9]
+Total Optical Clock Cycles: 106548
+Total Cost: 788220
+Runtime: 2.6637e-06 seconds
+Time for Program: 138.15298128128052
+
+Classification: good
+----------------------------------------------------------
+Configuration #2
+Finished test file: flow_freqmine_half.txt
+[8, 10, 12, 6, 15, 11, 7, 1, 14, 2, 4, 13, 3, 5, 0, 9]
+Total Optical Clock Cycles: 109468
+Total Cost: 806700
+Runtime: 2.7367e-06 seconds
+Time for Program: 277.50954937934875
+
+Classification: good
+----------------------------------------------------------
+Configuration #3
+Finished test file: flow_freqmine_half.txt
+[0, 15, 7, 2, 4, 8, 9, 6, 11, 10, 5, 12, 14, 3, 1, 13]
+Total Optical Clock Cycles: 105148
+Total Cost: 795270
+Runtime: 2.6287e-06 seconds
+Time for Program: 414.09794330596924
+
+Classification: good
+----------------------------------------------------------
+Configuration #4
+Finished test file: flow_freqmine_half.txt
+[11, 15, 8, 14, 7, 13, 2, 12, 1, 9, 5, 3, 6, 10, 0, 4]
+Total Optical Clock Cycles: 106125
+Total Cost: 823920
+Runtime: 2.653125e-06 seconds
+Time for Program: 553.0779695510864
+
+Classification: good
+----------------------------------------------------------
+Configuration #5
+Finished test file: flow_freqmine_half.txt
+[15, 10, 2, 11, 0, 14, 1, 9, 8, 6, 13, 4, 5, 12, 7, 3]
+Total Optical Clock Cycles: 109072
+Total Cost: 786540
+Runtime: 2.7268e-06 seconds
+Time for Program: 691.2074780464172
+
+Classification: good
+----------------------------------------------------------
+Configuration #6
+Finished test file: flow_freqmine_half.txt
+[12, 6, 3, 9, 7, 11, 1, 13, 14, 4, 10, 5, 8, 15, 2, 0]
+Total Optical Clock Cycles: 104481
+Total Cost: 778650
+Runtime: 2.612025e-06 seconds
+Time for Program: 825.624977350235
+
+Classification: good
+----------------------------------------------------------
+Configuration #7
+Finished test file: flow_freqmine_half.txt
+[12, 1, 2, 10, 11, 6, 0, 7, 8, 5, 3, 14, 9, 13, 4, 15]
+Total Optical Clock Cycles: 104956
+Total Cost: 789180
+Runtime: 2.6239e-06 seconds
+Time for Program: 960.5740797519684
+
+Classification: good
+----------------------------------------------------------
+Configuration #8
+Finished test file: flow_freqmine_half.txt
+[10, 4, 6, 12, 9, 2, 14, 5, 7, 1, 11, 15, 3, 8, 0, 13]
+Total Optical Clock Cycles: 108853
+Total Cost: 823410
+Runtime: 2.721325e-06 seconds
+Time for Program: 1095.1691658496857
+
+Classification: good
+----------------------------------------------------------
+Configuration #9
+Finished test file: flow_freqmine_half.txt
+[2, 9, 6, 10, 11, 14, 5, 4, 13, 7, 12, 3, 8, 15, 0, 1]
+Total Optical Clock Cycles: 108261
+Total Cost: 821220
+Runtime: 2.706525e-06 seconds
+Time for Program: 1230.1316440105438
+
+Classification: good
+----------------------------------------------------------
+Configuration #10
+Finished test file: flow_freqmine_half.txt
+[3, 0, 4, 13, 12, 10, 9, 5, 7, 15, 2, 6, 14, 1, 11, 8]
+Total Optical Clock Cycles: 113294
+Total Cost: 843960
+Runtime: 2.83235e-06 seconds
+Time for Program: 1365.7649590969086
+
+Classification: good
+----------------------------------------------------------
+Configuration #11
+Finished test file: flow_freqmine_half.txt
+[15, 9, 10, 6, 0, 14, 8, 1, 4, 3, 2, 11, 7, 5, 13, 12]
+Total Optical Clock Cycles: 113571
+Total Cost: 840840
+Runtime: 2.839275e-06 seconds
+Time for Program: 1501.5724771022797
+
+Classification: good
+----------------------------------------------------------
+Configuration #12
+Finished test file: flow_freqmine_half.txt
+[15, 7, 12, 13, 1, 6, 14, 4, 10, 11, 0, 9, 2, 3, 5, 8]
+Total Optical Clock Cycles: 107491
+Total Cost: 797070
+Runtime: 2.687275e-06 seconds
+Time for Program: 1637.038681268692
+
+Classification: good
+----------------------------------------------------------
+Configuration #13
+Finished test file: flow_freqmine_half.txt
+[3, 1, 8, 11, 2, 4, 12, 10, 6, 15, 14, 13, 5, 0, 7, 9]
+Total Optical Clock Cycles: 112018
+Total Cost: 860430
+Runtime: 2.80045e-06 seconds
+Time for Program: 1772.9018573760986
+
+Classification: good
+----------------------------------------------------------
+Configuration #14
+Finished test file: flow_freqmine_half.txt
+[6, 3, 10, 11, 1, 13, 0, 9, 4, 14, 8, 2, 5, 15, 7, 12]
+Total Optical Clock Cycles: 109331
+Total Cost: 799320
+Runtime: 2.733275e-06 seconds
+Time for Program: 1908.3212780952454
+
+Classification: good
+----------------------------------------------------------
+Configuration #15
+Finished test file: flow_freqmine_half.txt
+[14, 3, 5, 2, 8, 10, 15, 11, 7, 6, 0, 12, 4, 13, 9, 1]
+Total Optical Clock Cycles: 106766
+Total Cost: 811140
+Runtime: 2.66915e-06 seconds
+Time for Program: 2042.6606056690216
+
+Classification: good
+----------------------------------------------------------
+Configuration #16
+Finished test file: flow_freqmine_half.txt
+[11, 8, 2, 4, 10, 7, 3, 14, 13, 12, 6, 0, 1, 5, 9, 15]
+Total Optical Clock Cycles: 108865
+Total Cost: 815520
+Runtime: 2.721625e-06 seconds
+Time for Program: 2178.711905002594
+
+Classification: good
+----------------------------------------------------------
+Configuration #17
+Finished test file: flow_freqmine_half.txt
+[8, 14, 15, 0, 1, 3, 13, 5, 4, 6, 2, 12, 7, 9, 10, 11]
+Total Optical Clock Cycles: 110999
+Total Cost: 846090
+Runtime: 2.774975e-06 seconds
+Time for Program: 2314.0693802833557
+
+Classification: good
+----------------------------------------------------------
+Configuration #18
+Finished test file: flow_freqmine_half.txt
+[11, 6, 9, 10, 12, 8, 4, 15, 2, 7, 5, 1, 13, 3, 14, 0]
+Total Optical Clock Cycles: 108801
+Total Cost: 822300
+Runtime: 2.720025e-06 seconds
+Time for Program: 2450.282343864441
+
+Classification: good
+----------------------------------------------------------
+Configuration #19
+Finished test file: flow_freqmine_half.txt
+[13, 14, 15, 6, 9, 8, 12, 11, 1, 3, 4, 2, 0, 10, 5, 7]
+Total Optical Clock Cycles: 109823
+Total Cost: 823410
+Runtime: 2.745575e-06 seconds
+Time for Program: 2585.6722626686096
+
+Classification: good
+----------------------------------------------------------
+Configuration #20
+Finished test file: flow_freqmine_half.txt
+[9, 3, 5, 6, 4, 14, 1, 8, 13, 7, 2, 10, 12, 0, 11, 15]
+Total Optical Clock Cycles: 107881
+Total Cost: 795360
+Runtime: 2.697025e-06 seconds
+Time for Program: 2721.860854625702
+
+Classification: good
+----------------------------------------------------------
+Configuration #21
+Finished test file: flow_freqmine_half.txt
+[10, 0, 1, 3, 2, 13, 14, 5, 11, 15, 4, 6, 7, 9, 12, 8]
+Total Optical Clock Cycles: 110478
+Total Cost: 826260
+Runtime: 2.76195e-06 seconds
+Time for Program: 2857.002092599869
+
+Classification: good
+----------------------------------------------------------
+Configuration #22
+Finished test file: flow_freqmine_half.txt
+[11, 13, 5, 10, 12, 7, 14, 3, 1, 9, 8, 2, 4, 15, 6, 0]
+Total Optical Clock Cycles: 108180
+Total Cost: 822930
+Runtime: 2.7045e-06 seconds
+Time for Program: 2991.8434500694275
+
+Classification: good
+----------------------------------------------------------
+Configuration #23
+Finished test file: flow_freqmine_half.txt
+[9, 6, 1, 5, 13, 12, 3, 2, 11, 0, 4, 8, 7, 10, 14, 15]
+Total Optical Clock Cycles: 107236
+Total Cost: 790560
+Runtime: 2.6809e-06 seconds
+Time for Program: 3126.6712822914124
+
+Classification: good
+----------------------------------------------------------
+Configuration #24
+Finished test file: flow_freqmine_half.txt
+[9, 13, 4, 1, 7, 3, 12, 6, 8, 10, 5, 2, 11, 15, 14, 0]
+Total Optical Clock Cycles: 107397
+Total Cost: 817650
+Runtime: 2.684925e-06 seconds
+Time for Program: 3262.062290430069
+
+Classification: good
+----------------------------------------------------------
+Configuration #25
+Finished test file: flow_freqmine_half.txt
+[14, 13, 11, 3, 2, 12, 10, 1, 8, 4, 0, 15, 7, 5, 6, 9]
+Total Optical Clock Cycles: 110066
+Total Cost: 843060
+Runtime: 2.75165e-06 seconds
+Time for Program: 3397.1416733264923
+
+Classification: good
+----------------------------------------------------------
+Configuration #26
+Finished test file: flow_freqmine_half.txt
+[14, 5, 12, 4, 11, 8, 7, 0, 3, 13, 1, 10, 2, 15, 6, 9]
+Total Optical Clock Cycles: 108794
+Total Cost: 825240
+Runtime: 2.71985e-06 seconds
+Time for Program: 3533.1830446720123
+
+Classification: good
+----------------------------------------------------------
+Configuration #27
+Finished test file: flow_freqmine_half.txt
+[0, 4, 13, 15, 3, 8, 9, 14, 10, 6, 2, 7, 11, 12, 1, 5]
+Total Optical Clock Cycles: 106338
+Total Cost: 816570
+Runtime: 2.65845e-06 seconds
+Time for Program: 3668.5877833366394
+
+Classification: good
+----------------------------------------------------------
+Configuration #28
+Finished test file: flow_freqmine_half.txt
+[14, 12, 0, 13, 4, 1, 11, 15, 9, 5, 7, 10, 8, 2, 3, 6]
+Total Optical Clock Cycles: 108621
+Total Cost: 808140
+Runtime: 2.715525e-06 seconds
+Time for Program: 3804.4150545597076
+
+Classification: good
+----------------------------------------------------------
+Configuration #29
+Finished test file: flow_freqmine_half.txt
+[13, 1, 2, 12, 14, 10, 11, 5, 6, 8, 4, 3, 0, 15, 7, 9]
+Total Optical Clock Cycles: 105615
+Total Cost: 791550
+Runtime: 2.640375e-06 seconds
+Time for Program: 3939.865336418152
+
+Classification: good
+----------------------------------------------------------
+Configuration #30
+Finished test file: flow_freqmine_half.txt
+[11, 8, 9, 5, 14, 0, 3, 13, 6, 2, 12, 10, 7, 15, 4, 1]
+Total Optical Clock Cycles: 108562
+Total Cost: 799620
+Runtime: 2.71405e-06 seconds
+Time for Program: 4074.776420354843
+
+Classification: good
+----------------------------------------------------------
+Configuration #31
+Finished test file: flow_freqmine_half.txt
+[6, 11, 12, 15, 0, 2, 5, 8, 4, 1, 9, 10, 13, 14, 3, 7]
+Total Optical Clock Cycles: 107810
+Total Cost: 791970
+Runtime: 2.69525e-06 seconds
+Time for Program: 4210.191786527634
+
+Classification: good
+----------------------------------------------------------
+Configuration #32
+Finished test file: flow_freqmine_half.txt
+[1, 14, 8, 10, 11, 6, 13, 0, 2, 12, 3, 7, 9, 4, 15, 5]
+Total Optical Clock Cycles: 106893
+Total Cost: 765810
+Runtime: 2.672325e-06 seconds
+Time for Program: 4344.623728752136
+
+Classification: good
+----------------------------------------------------------
+Configuration #33
+Finished test file: flow_freqmine_half.txt
+[3, 5, 8, 14, 7, 9, 4, 12, 11, 2, 15, 1, 6, 13, 0, 10]
+Total Optical Clock Cycles: 108198
+Total Cost: 823800
+Runtime: 2.70495e-06 seconds
+Time for Program: 4479.810862541199
+
+Classification: good
+----------------------------------------------------------
+Configuration #34
+Finished test file: flow_freqmine_half.txt
+[1, 15, 8, 11, 13, 3, 14, 0, 2, 5, 6, 9, 7, 10, 12, 4]
+Total Optical Clock Cycles: 107713
+Total Cost: 804390
+Runtime: 2.692825e-06 seconds
+Time for Program: 4615.019928455353
+
+Classification: good
+----------------------------------------------------------
+Configuration #35
+Finished test file: flow_freqmine_half.txt
+[14, 11, 2, 10, 15, 1, 13, 4, 3, 12, 9, 8, 5, 0, 6, 7]
+Total Optical Clock Cycles: 106703
+Total Cost: 806580
+Runtime: 2.667575e-06 seconds
+Time for Program: 4749.168028116226
+
+Classification: good
+----------------------------------------------------------
+Configuration #36
+Finished test file: flow_freqmine_half.txt
+[8, 3, 10, 12, 7, 2, 14, 5, 6, 0, 9, 15, 1, 13, 4, 11]
+Total Optical Clock Cycles: 109212
+Total Cost: 818430
+Runtime: 2.7303e-06 seconds
+Time for Program: 4884.365795612335
+
+Classification: good
+----------------------------------------------------------
+Configuration #37
+Finished test file: flow_freqmine_half.txt
+[0, 4, 6, 9, 15, 8, 2, 3, 10, 11, 13, 12, 7, 5, 1, 14]
+Total Optical Clock Cycles: 104058
+Total Cost: 814770
+Runtime: 2.60145e-06 seconds
+Time for Program: 5018.89032292366
+
+Classification: good
+----------------------------------------------------------
+Configuration #38
+Finished test file: flow_freqmine_half.txt
+[7, 6, 13, 8, 9, 0, 14, 4, 12, 2, 3, 15, 10, 1, 11, 5]
+Total Optical Clock Cycles: 108065
+Total Cost: 793020
+Runtime: 2.701625e-06 seconds
+Time for Program: 5155.164887905121
+
+Classification: good
+----------------------------------------------------------
+Configuration #39
+Finished test file: flow_freqmine_half.txt
+[0, 11, 9, 4, 13, 3, 2, 1, 14, 15, 5, 6, 7, 12, 8, 10]
+Total Optical Clock Cycles: 106078
+Total Cost: 806580
+Runtime: 2.65195e-06 seconds
+Time for Program: 5289.924609184265
+
+Classification: good
+----------------------------------------------------------
+Configuration #40
+Finished test file: flow_freqmine_half.txt
+[14, 3, 0, 12, 11, 8, 10, 7, 6, 9, 13, 4, 5, 1, 15, 2]
+Total Optical Clock Cycles: 107602
+Total Cost: 793770
+Runtime: 2.69005e-06 seconds
+Time for Program: 5425.141162872314
+
+Classification: good
+----------------------------------------------------------
+Configuration #41
+Finished test file: flow_freqmine_half.txt
+[0, 1, 10, 6, 8, 13, 11, 4, 3, 9, 14, 7, 15, 12, 2, 5]
+Total Optical Clock Cycles: 106935
+Total Cost: 810540
+Runtime: 2.673375e-06 seconds
+Time for Program: 5559.958271741867
+
+Classification: good
+----------------------------------------------------------
+Configuration #42
+Finished test file: flow_freqmine_half.txt
+[4, 9, 15, 7, 5, 0, 14, 11, 8, 2, 1, 13, 10, 3, 6, 12]
+Total Optical Clock Cycles: 107993
+Total Cost: 825090
+Runtime: 2.699825e-06 seconds
+Time for Program: 5695.935992479324
+
+Classification: good
+----------------------------------------------------------
+Configuration #43
+Finished test file: flow_freqmine_half.txt
+[2, 6, 3, 8, 1, 13, 0, 14, 10, 15, 11, 9, 7, 5, 12, 4]
+Total Optical Clock Cycles: 113641
+Total Cost: 857310
+Runtime: 2.841025e-06 seconds
+Time for Program: 5830.9796550273895
+
+Classification: good
+----------------------------------------------------------
+Configuration #44
+Finished test file: flow_freqmine_half.txt
+[8, 15, 11, 6, 3, 7, 1, 4, 12, 0, 5, 2, 14, 9, 13, 10]
+Total Optical Clock Cycles: 108683
+Total Cost: 802590
+Runtime: 2.717075e-06 seconds
+Time for Program: 5966.643536090851
+
+Classification: good
+----------------------------------------------------------
+Configuration #45
+Finished test file: flow_freqmine_half.txt
+[6, 7, 4, 0, 10, 2, 11, 1, 5, 8, 14, 15, 9, 13, 3, 12]
+Total Optical Clock Cycles: 105747
+Total Cost: 785100
+Runtime: 2.643675e-06 seconds
+Time for Program: 6102.888755321503
+
+Classification: good
+----------------------------------------------------------
+Configuration #46
+Finished test file: flow_freqmine_half.txt
+[1, 4, 9, 7, 11, 12, 15, 8, 3, 14, 6, 10, 0, 13, 5, 2]
+Total Optical Clock Cycles: 105994
+Total Cost: 796290
+Runtime: 2.64985e-06 seconds
+Time for Program: 6238.419061422348
+
+Classification: good
+----------------------------------------------------------
+Configuration #47
+Finished test file: flow_freqmine_half.txt
+[6, 9, 11, 2, 10, 5, 15, 4, 13, 1, 14, 7, 0, 3, 12, 8]
+Total Optical Clock Cycles: 110718
+Total Cost: 814470
+Runtime: 2.76795e-06 seconds
+Time for Program: 6375.729672431946
+
+Classification: good
+----------------------------------------------------------
+Configuration #48
+Finished test file: flow_freqmine_half.txt
+[6, 8, 9, 4, 5, 11, 15, 14, 3, 12, 2, 0, 1, 13, 10, 7]
+Total Optical Clock Cycles: 103996
+Total Cost: 789300
+Runtime: 2.5999e-06 seconds
+Time for Program: 6509.703365325928
+
+Classification: good
+----------------------------------------------------------
+Configuration #49
+Finished test file: flow_freqmine_half.txt
+[8, 4, 1, 10, 6, 7, 15, 9, 12, 14, 13, 2, 11, 5, 3, 0]
+Total Optical Clock Cycles: 111477
+Total Cost: 841170
+Runtime: 2.786925e-06 seconds
+Time for Program: 6656.3444945812225
+
+Classification: good
+----------------------------------------------------------
+Configuration #50
+Finished test file: flow_freqmine_half.txt
+[0, 3, 15, 11, 9, 4, 14, 5, 10, 8, 12, 1, 6, 13, 2, 7]
+Total Optical Clock Cycles: 107195
+Total Cost: 788190
+Runtime: 2.679875e-06 seconds
+Time for Program: 6801.369304418564
+
+Classification: good
+----------------------------------------------------------
+Configuration #51
+Finished test file: flow_freqmine_half.txt
+[12, 8, 4, 5, 10, 7, 9, 1, 13, 0, 3, 6, 15, 2, 14, 11]
+Total Optical Clock Cycles: 108462
+Total Cost: 803640
+Runtime: 2.71155e-06 seconds
+Time for Program: 6946.3871393203735
+
+Classification: good
+----------------------------------------------------------
+Configuration #52
+Finished test file: flow_freqmine_half.txt
+[2, 5, 14, 7, 8, 1, 10, 13, 0, 15, 3, 9, 6, 11, 4, 12]
+Total Optical Clock Cycles: 107824
+Total Cost: 823980
+Runtime: 2.6956e-06 seconds
+Time for Program: 7083.652740240097
+
+Classification: good
+----------------------------------------------------------
+Configuration #53
+Finished test file: flow_freqmine_half.txt
+[14, 3, 9, 12, 2, 1, 8, 6, 4, 13, 7, 15, 0, 11, 5, 10]
+Total Optical Clock Cycles: 107160
+Total Cost: 841140
+Runtime: 2.679e-06 seconds
+Time for Program: 7223.626316308975
+
+Classification: good
+----------------------------------------------------------
+Configuration #54
+Finished test file: flow_freqmine_half.txt
+[0, 15, 14, 12, 10, 5, 1, 3, 6, 2, 11, 8, 4, 9, 7, 13]
+Total Optical Clock Cycles: 107379
+Total Cost: 832470
+Runtime: 2.684475e-06 seconds
+Time for Program: 7360.733538389206
+
+Classification: good
+----------------------------------------------------------
+Configuration #55
+Finished test file: flow_freqmine_half.txt
+[11, 0, 3, 9, 6, 14, 5, 8, 10, 15, 13, 7, 12, 2, 1, 4]
+Total Optical Clock Cycles: 108777
+Total Cost: 823980
+Runtime: 2.719425e-06 seconds
+Time for Program: 7501.990598917007
+
+Classification: good
+----------------------------------------------------------
+Configuration #56
+Finished test file: flow_freqmine_half.txt
+[3, 0, 4, 6, 2, 8, 1, 15, 12, 5, 9, 14, 13, 11, 10, 7]
+Total Optical Clock Cycles: 108406
+Total Cost: 812820
+Runtime: 2.71015e-06 seconds
+Time for Program: 7641.522812843323
+
+Classification: good
+----------------------------------------------------------
+Configuration #57
+Finished test file: flow_freqmine_half.txt
+[1, 8, 11, 0, 6, 10, 4, 2, 12, 5, 15, 9, 14, 7, 3, 13]
+Total Optical Clock Cycles: 110223
+Total Cost: 824460
+Runtime: 2.755575e-06 seconds
+Time for Program: 7788.252589225769
+
+Classification: good
+----------------------------------------------------------
+Configuration #58
+Finished test file: flow_freqmine_half.txt
+[11, 13, 9, 14, 5, 10, 15, 0, 8, 4, 2, 7, 3, 1, 12, 6]
+Total Optical Clock Cycles: 108381
+Total Cost: 815070
+Runtime: 2.709525e-06 seconds
+Time for Program: 7932.8709354400635
+
+Classification: good
+----------------------------------------------------------
+Configuration #59
+Finished test file: flow_freqmine_half.txt
+[8, 10, 6, 9, 15, 13, 7, 12, 11, 14, 2, 3, 5, 0, 1, 4]
+Total Optical Clock Cycles: 112434
+Total Cost: 823590
+Runtime: 2.81085e-06 seconds
+Time for Program: 8078.575081348419
+
+Classification: good
+----------------------------------------------------------
+Configuration #60
+Finished test file: flow_freqmine_half.txt
+[12, 9, 14, 1, 0, 13, 10, 2, 11, 7, 5, 6, 4, 3, 8, 15]
+Total Optical Clock Cycles: 105998
+Total Cost: 795900
+Runtime: 2.64995e-06 seconds
+Time for Program: 8243.244466304779
+
+Classification: good
+----------------------------------------------------------
+Configuration #61
+Finished test file: flow_freqmine_half.txt
+[1, 5, 0, 4, 7, 13, 14, 8, 6, 11, 15, 12, 3, 9, 2, 10]
+Total Optical Clock Cycles: 107788
+Total Cost: 813090
+Runtime: 2.6947e-06 seconds
+Time for Program: 8520.466434240341
+
+Classification: good
+----------------------------------------------------------
+Configuration #62
+Finished test file: flow_freqmine_half.txt
+[4, 10, 5, 8, 15, 0, 7, 6, 13, 12, 1, 9, 3, 2, 11, 14]
+Total Optical Clock Cycles: 106678
+Total Cost: 809580
+Runtime: 2.66695e-06 seconds
+Time for Program: 8792.801218271255
+
+Classification: good
+----------------------------------------------------------
+Configuration #63
+Finished test file: flow_freqmine_half.txt
+[2, 5, 0, 9, 4, 3, 6, 14, 10, 7, 8, 15, 13, 12, 11, 1]
+Total Optical Clock Cycles: 107507
+Total Cost: 811020
+Runtime: 2.687675e-06 seconds
+Time for Program: 9055.405197381973
+
+Classification: good
+----------------------------------------------------------
+Configuration #64
+Finished test file: flow_freqmine_half.txt
+[5, 8, 13, 14, 6, 2, 3, 7, 9, 1, 0, 15, 11, 10, 4, 12]
+Total Optical Clock Cycles: 109916
+Total Cost: 806130
+Runtime: 2.7479e-06 seconds
+Time for Program: 9317.824410438538
+
+Classification: good
+----------------------------------------------------------
+Configuration #65
+Finished test file: flow_freqmine_half.txt
+[12, 11, 6, 3, 10, 13, 5, 1, 2, 8, 4, 0, 14, 9, 7, 15]
+Total Optical Clock Cycles: 108333
+Total Cost: 807960
+Runtime: 2.708325e-06 seconds
+Time for Program: 9580.584481477737
+
+Classification: good
+----------------------------------------------------------
+Configuration #66
+Finished test file: flow_freqmine_half.txt
+[4, 8, 14, 12, 9, 0, 2, 3, 11, 7, 1, 5, 10, 6, 15, 13]
+Total Optical Clock Cycles: 108306
+Total Cost: 788580
+Runtime: 2.70765e-06 seconds
+Time for Program: 9845.46265053749
+
+Classification: good
+----------------------------------------------------------
+Configuration #67
+Finished test file: flow_freqmine_half.txt
+[15, 1, 8, 12, 3, 13, 4, 7, 0, 5, 6, 10, 11, 14, 9, 2]
+Total Optical Clock Cycles: 107577
+Total Cost: 823860
+Runtime: 2.689425e-06 seconds
+Time for Program: 10121.236949920654
+
+Classification: good
+----------------------------------------------------------
+Configuration #68
+Finished test file: flow_freqmine_half.txt
+[5, 15, 13, 6, 12, 1, 11, 2, 9, 7, 3, 10, 0, 4, 14, 8]
+Total Optical Clock Cycles: 105003
+Total Cost: 808350
+Runtime: 2.625075e-06 seconds
+Time for Program: 10399.025599479675
+
+Classification: good
+----------------------------------------------------------
+Configuration #69
+Finished test file: flow_freqmine_half.txt
+[9, 15, 11, 14, 10, 1, 4, 13, 6, 3, 0, 7, 12, 5, 8, 2]
+Total Optical Clock Cycles: 107941
+Total Cost: 796680
+Runtime: 2.698525e-06 seconds
+Time for Program: 10673.3223361969
+
+Classification: good
+----------------------------------------------------------
+Configuration #70
+Finished test file: flow_freqmine_half.txt
+[3, 7, 12, 15, 6, 2, 8, 4, 14, 5, 1, 11, 10, 13, 0, 9]
+Total Optical Clock Cycles: 106725
+Total Cost: 803460
+Runtime: 2.668125e-06 seconds
+Time for Program: 10946.711656332016
+
+Classification: good
+----------------------------------------------------------
+Configuration #71
+Finished test file: flow_freqmine_half.txt
+[15, 13, 9, 14, 11, 12, 8, 0, 4, 1, 2, 10, 7, 6, 3, 5]
+Total Optical Clock Cycles: 107118
+Total Cost: 814890
+Runtime: 2.67795e-06 seconds
+Time for Program: 11228.284622430801
+
+Classification: good
+----------------------------------------------------------
+Configuration #72
+Finished test file: flow_freqmine_half.txt
+[15, 5, 14, 7, 12, 8, 10, 1, 2, 6, 11, 13, 0, 4, 9, 3]
+Total Optical Clock Cycles: 104830
+Total Cost: 818550
+Runtime: 2.62075e-06 seconds
+Time for Program: 11510.415235996246
+
+Classification: good
+----------------------------------------------------------
+Configuration #73
+Finished test file: flow_freqmine_half.txt
+[1, 5, 7, 4, 11, 12, 0, 15, 9, 6, 8, 13, 14, 3, 10, 2]
+Total Optical Clock Cycles: 107392
+Total Cost: 814980
+Runtime: 2.6848e-06 seconds
+Time for Program: 11784.841368675232
+
+Classification: good
+----------------------------------------------------------
+Configuration #74
+Finished test file: flow_freqmine_half.txt
+[5, 12, 13, 2, 6, 15, 8, 9, 0, 4, 7, 3, 10, 14, 11, 1]
+Total Optical Clock Cycles: 107746
+Total Cost: 798960
+Runtime: 2.69365e-06 seconds
+Time for Program: 11968.991582393646
+
+Classification: good
+----------------------------------------------------------
+Configuration #75
+Finished test file: flow_freqmine_half.txt
+[6, 4, 11, 8, 1, 7, 5, 12, 0, 3, 14, 15, 13, 2, 9, 10]
+Total Optical Clock Cycles: 107944
+Total Cost: 805050
+Runtime: 2.6986e-06 seconds
+Time for Program: 12169.023987531662
+
+Classification: good
+----------------------------------------------------------
+Configuration #76
+Finished test file: flow_freqmine_half.txt
+[8, 7, 11, 9, 3, 5, 13, 0, 6, 2, 15, 14, 4, 12, 1, 10]
+Total Optical Clock Cycles: 107772
+Total Cost: 803010
+Runtime: 2.6943e-06 seconds
+Time for Program: 12449.002359867096
+
+Classification: good
+----------------------------------------------------------
+Configuration #77
+Finished test file: flow_freqmine_half.txt
+[3, 1, 6, 7, 12, 15, 8, 4, 9, 5, 13, 14, 10, 2, 0, 11]
+Total Optical Clock Cycles: 108855
+Total Cost: 807360
+Runtime: 2.721375e-06 seconds
+Time for Program: 12726.57389330864
+
+Classification: good
+----------------------------------------------------------
+Configuration #78
+Finished test file: flow_freqmine_half.txt
+[2, 9, 11, 13, 8, 10, 14, 3, 7, 12, 1, 5, 6, 0, 4, 15]
+Total Optical Clock Cycles: 110067
+Total Cost: 798450
+Runtime: 2.751675e-06 seconds
+Time for Program: 13008.559096097946
+
+Classification: good
+----------------------------------------------------------
+Configuration #79
+Finished test file: flow_freqmine_half.txt
+[0, 4, 8, 14, 5, 10, 11, 12, 2, 9, 6, 15, 1, 7, 3, 13]
+Total Optical Clock Cycles: 109098
+Total Cost: 822960
+Runtime: 2.72745e-06 seconds
+Time for Program: 13287.261679172516
+
+Classification: good
+----------------------------------------------------------
+Configuration #80
+Finished test file: flow_freqmine_half.txt
+[15, 11, 3, 4, 1, 8, 7, 5, 14, 10, 13, 6, 9, 0, 2, 12]
+Total Optical Clock Cycles: 104563
+Total Cost: 793140
+Runtime: 2.614075e-06 seconds
+Time for Program: 13560.609097480774
+
+Classification: good
+----------------------------------------------------------
+Configuration #81
+Finished test file: flow_freqmine_half.txt
+[5, 1, 2, 13, 7, 6, 4, 3, 12, 14, 11, 15, 9, 0, 8, 10]
+Total Optical Clock Cycles: 110256
+Total Cost: 822330
+Runtime: 2.7564e-06 seconds
+Time for Program: 13830.61656498909
+
+Classification: good
+----------------------------------------------------------
+Configuration #82
+Finished test file: flow_freqmine_half.txt
+[9, 13, 6, 10, 5, 1, 11, 12, 7, 4, 3, 8, 14, 15, 2, 0]
+Total Optical Clock Cycles: 106632
+Total Cost: 785940
+Runtime: 2.6658e-06 seconds
+Time for Program: 14104.179075717926
+
+Classification: good
+----------------------------------------------------------
+Configuration #83
+Finished test file: flow_freqmine_half.txt
+[15, 11, 10, 5, 14, 12, 0, 1, 3, 8, 9, 2, 6, 13, 4, 7]
+Total Optical Clock Cycles: 113933
+Total Cost: 855510
+Runtime: 2.848325e-06 seconds
+Time for Program: 14374.469331026077
+
+Classification: good
+----------------------------------------------------------
+Configuration #84
+Finished test file: flow_freqmine_half.txt
+[5, 10, 11, 9, 15, 4, 13, 6, 8, 2, 14, 0, 12, 3, 1, 7]
+Total Optical Clock Cycles: 108638
+Total Cost: 797850
+Runtime: 2.71595e-06 seconds
+Time for Program: 14645.035266160965
+
+Classification: good
+----------------------------------------------------------
+Configuration #85
+Finished test file: flow_freqmine_half.txt
+[3, 13, 0, 12, 10, 11, 6, 1, 8, 15, 4, 7, 9, 2, 5, 14]
+Total Optical Clock Cycles: 108291
+Total Cost: 805260
+Runtime: 2.707275e-06 seconds
+Time for Program: 14911.151950836182
+
+Classification: good
+----------------------------------------------------------
+Configuration #86
+Finished test file: flow_freqmine_half.txt
+[11, 12, 5, 10, 15, 9, 3, 8, 7, 14, 6, 1, 0, 2, 13, 4]
+Total Optical Clock Cycles: 109478
+Total Cost: 816750
+Runtime: 2.73695e-06 seconds
+Time for Program: 15182.879716157913
+
+Classification: good
+----------------------------------------------------------
+Configuration #87
+Finished test file: flow_freqmine_half.txt
+[9, 15, 11, 6, 1, 10, 12, 8, 2, 5, 4, 14, 7, 0, 13, 3]
+Total Optical Clock Cycles: 106364
+Total Cost: 815520
+Runtime: 2.6591e-06 seconds
+Time for Program: 15454.137140512466
+
+Classification: good
+----------------------------------------------------------
+Configuration #88
+Finished test file: flow_freqmine_half.txt
+[7, 3, 8, 9, 4, 14, 13, 15, 2, 10, 12, 1, 11, 5, 6, 0]
+Total Optical Clock Cycles: 106633
+Total Cost: 812910
+Runtime: 2.665825e-06 seconds
+Time for Program: 15727.522871017456
+
+Classification: good
+----------------------------------------------------------
+Configuration #89
+Finished test file: flow_freqmine_half.txt
+[6, 5, 3, 14, 10, 12, 13, 7, 0, 4, 8, 2, 11, 1, 9, 15]
+Total Optical Clock Cycles: 108163
+Total Cost: 798960
+Runtime: 2.704075e-06 seconds
+Time for Program: 15918.803709506989
+
+Classification: good
+----------------------------------------------------------
+Configuration #90
+Finished test file: flow_freqmine_half.txt
+[10, 1, 4, 8, 11, 5, 7, 9, 13, 12, 0, 15, 6, 3, 14, 2]
+Total Optical Clock Cycles: 104975
+Total Cost: 813270
+Runtime: 2.624375e-06 seconds
+Time for Program: 16053.340039014816
+
+Classification: good
+----------------------------------------------------------
+Configuration #91
+Finished test file: flow_freqmine_half.txt
+[3, 14, 6, 2, 4, 9, 7, 0, 10, 8, 11, 12, 5, 15, 1, 13]
+Total Optical Clock Cycles: 106765
+Total Cost: 797640
+Runtime: 2.669125e-06 seconds
+Time for Program: 16188.304260492325
+
+Classification: good
+----------------------------------------------------------
+Configuration #92
+Finished test file: flow_freqmine_half.txt
+[8, 0, 12, 9, 7, 13, 3, 15, 4, 6, 2, 10, 14, 11, 1, 5]
+Total Optical Clock Cycles: 106562
+Total Cost: 805230
+Runtime: 2.66405e-06 seconds
+Time for Program: 16322.495725393295
+
+Classification: good
+----------------------------------------------------------
+Configuration #93
+Finished test file: flow_freqmine_half.txt
+[15, 14, 7, 12, 0, 3, 4, 5, 2, 8, 13, 10, 11, 9, 6, 1]
+Total Optical Clock Cycles: 106071
+Total Cost: 776370
+Runtime: 2.651775e-06 seconds
+Time for Program: 16461.36661839485
+
+Classification: good
+----------------------------------------------------------
+Configuration #94
+Finished test file: flow_freqmine_half.txt
+[15, 1, 7, 9, 8, 10, 14, 13, 6, 2, 12, 5, 4, 11, 0, 3]
+Total Optical Clock Cycles: 111191
+Total Cost: 810240
+Runtime: 2.779775e-06 seconds
+Time for Program: 16601.977115154266
+
+Classification: good
+----------------------------------------------------------
+Configuration #95
+Finished test file: flow_freqmine_half.txt
+[8, 5, 15, 7, 4, 0, 14, 1, 11, 2, 10, 9, 12, 13, 3, 6]
+Total Optical Clock Cycles: 104701
+Total Cost: 803370
+Runtime: 2.617525e-06 seconds
+Time for Program: 16740.792809724808
+
+Classification: good
+----------------------------------------------------------
+Configuration #96
+Finished test file: flow_freqmine_half.txt
+[6, 12, 0, 2, 3, 13, 1, 4, 11, 7, 9, 14, 10, 15, 8, 5]
+Total Optical Clock Cycles: 109926
+Total Cost: 794820
+Runtime: 2.74815e-06 seconds
+Time for Program: 16880.516996622086
+
+Classification: good
+----------------------------------------------------------
+Configuration #97
+Finished test file: flow_freqmine_half.txt
+[13, 8, 12, 1, 11, 4, 3, 14, 9, 10, 0, 7, 2, 6, 15, 5]
+Total Optical Clock Cycles: 105531
+Total Cost: 808410
+Runtime: 2.638275e-06 seconds
+Time for Program: 17025.894852161407
+
+Classification: good
+----------------------------------------------------------

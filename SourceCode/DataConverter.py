@@ -9,6 +9,13 @@ Note: This program will read any order of files, hence the ordering of the
 configurations will NOT be preserved
 """
 
+"""
+Programmer: Chris B
+Note: 
+    This file was changed to output the NN input to my ChrisTestData directory
+    and to look for my "cb_configuration" config analysis files. 
+"""
+
 import os
 import fnmatch
 import sys
@@ -112,21 +119,22 @@ def main():
     #Filepath will either be specified via sys.argv or defaulted to the output
     #folder
     try:
-        folder = str(sys.argv[1])
+        folder = str(sys.argv[1])   #
+        print ('Folder: ' + str(folder))
     except: 
         folder = 'ConfigurationAnalysis/'
-    try:
-        outputDir = "ChrisTestData/"
-    except:
-        outputDir = 'TF/'
-    print ('Folder: ' + str(folder))
+
+    outputDir = "ChrisTestData/"
+    #outputDir = 'TF/' #old location
+
+    
     #for all the output files in the folder, add them to a list to be processed
     print(os.listdir(folder))
     numberOfConfigs = 0
     for file in os.listdir(folder):
         if os.path.isdir(file):
             continue
-        if "." not in file:
+        if "." not in file: #checks to see if file has file extension
             print("Not an appropriate file: " + file)
             continue
         if fnmatch.fnmatch(file, 'ParallelConfigurations-*Data*') or \

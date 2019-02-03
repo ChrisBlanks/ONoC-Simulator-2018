@@ -34,10 +34,10 @@ import config_data
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--batch_size', default=100, type=int, help='batch size')
-parser.add_argument('--train_steps', default= 500000 , type=int,
-                    help='number of training steps')
-parser.add_argument('--train_data',default="NN_Input/train_config-data-Data.out.csv",type=str,help="The file for the training data")
-parser.add_argument('--test_data',default="NN_Input/test_config-data-Data.out.csv",type=str,help="The file for the testing data")
+parser.add_argument('--train_steps', default= 500000 , type=int, help='number of training steps')
+parser.add_argument('--train_data',default="NN_Input/train_config-data-1000.csv",type=str,help="The file for the training data")
+parser.add_argument('--test_data',default="NN_Input/test_config-data-1000.csv",type=str,help="The file for the testing data")
+parser.add_argument('--model_dir',default=(str(os.getcwd())+'/Models'),type=str,help="Specifies path for saving or restoring NN")
 
 
 def main(argv):
@@ -54,16 +54,13 @@ def main(argv):
 
     # Build 2 hidden layer DNN with 10, 10 units respectively.
     classifier = tf.estimator.DNNClassifier(
-        feature_columns=my_feature_columns,
-        # Two hidden layers of 15 nodes each.
-        hidden_units=[15,15,10 ],
-#        hidden_units=[ 15,15],
-        #Specify Activation functions
-#        activation_fn = tf.nn.sigmoid,
+        feature_columns= my_feature_columns,
+        hidden_units=[20,15,10,3 ],
+        activation_fn = tf.nn.sigmoid,
         # The model must choose between 3 classes.
-        n_classes=3,  #classes: good, average, bad
-        # Specify a place to save the model
-        model_dir = os.getcwd()+'/Models')
+        n_classes= 3,  #classes: good, average, bad 
+        model_dir = args.model_dir  # Specify a place to save the model
+        )
     
 
     # Train the Model.

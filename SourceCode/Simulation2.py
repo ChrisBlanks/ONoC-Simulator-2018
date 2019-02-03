@@ -175,7 +175,6 @@ def main():
         else:
     	#if the configurationFile is not in the"average dir as benchmarksfiles, set it to whatever config is set to
             theConfigurationFile = config.configurationFile
-            print("config: " +theConfigurationFile)
 
     #Get Time       
     startTime = time.time()
@@ -483,12 +482,12 @@ def main():
             logger.write('Runtime: '+ str(totalTime) +' seconds'+"\n")
             logger.write('Time for Program: ' + str(tProgram) + '\n\n')
 
-            if (totalTime > 2.8856e-06):
-                classification = "bad"
-            elif (totalTime < 2.8856e-06):
+            if (totalTime < 2.8856e-06):
                 classification = "good"
-            else: 
+            elif (totalTime < 3.0e-6):
                 classification = "average"
+            else: 
+                classification = "bad"
 
             logger.write('Classification: '+classification+"\n")
             logger.write('----------------------------------------------------------'+"\n")

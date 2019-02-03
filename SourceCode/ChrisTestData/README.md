@@ -11,6 +11,10 @@
 >
 > * If `config.isVolumeSpecific` is true, then the configuration analysis files have their volume factor volume appended to their names
 
+**Adaptation to the *DataConverter.py* script (Located in the SourceCode directory)**
+> * Output directory was changed to ChrisTestData and requires manually relocating to the child NN_INPUT directory in ChrisTestData
+> * The adapted script should only be used on simulation output files that have the same configuration set and volume factor value, but different log files 
+
 
 **PerformanceCheck.py (Located in the SourceCode directory)**
 > * Counts the occurrences of good, bad, and average performances of *Simulation2.py* output logger files

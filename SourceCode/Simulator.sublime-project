@@ -10,7 +10,7 @@
 	[{
 		"name":"Simulator Build",
 		"cmd": ["python3","$file",
-					"Benchmark_Data/16-core/7/flow_freqmine.txt",
+					"Benchmark_Data/16-core/7/flow_freqmine_half.txt",
 					"ParallelFiles/cb_configurations_1000.txt"],
 		"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 		
